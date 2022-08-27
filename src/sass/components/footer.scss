@@ -1,0 +1,27 @@
+footer{
+    padding: 50px 0;
+    text-align: center;
+    .copyright{
+        color: $fourth-color;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        a{
+            color: $first-color;
+            display: inline-block;
+        }
+    }
+    .social{
+        text-align: center;
+        ul{
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        li{
+            img{
+                height: 16px;
+                width: 16px;
+            }
+        }
+    }
+}

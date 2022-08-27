@@ -1,0 +1,18 @@
+.btn{
+    letter-spacing: 0.9px;
+    &__medium{
+        font-size: 1.2rem;
+        padding: 10px 20px;
+    }
+    &__uppercase{
+        text-transform: uppercase;
+    }
+    &__white{
+        background: $third-color;
+        color: $first-color;
+    }
+    &__pink{
+        background: $first-color;
+        color: $third-color;
+    }
+}

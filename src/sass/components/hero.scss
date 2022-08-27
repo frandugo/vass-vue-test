@@ -1,0 +1,19 @@
+.hero{
+    align-items: center;
+    background: $first-color;
+    display: flex;
+    justify-content: center;
+    padding: 200px 0;
+    text-align: center;
+    &__title{
+        color: $third-color;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    &__paragraph{
+        color: $third-color;
+        font-weight: 300;
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+}

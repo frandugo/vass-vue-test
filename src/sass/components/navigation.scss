@@ -1,0 +1,33 @@
+.navigation{
+    ul{
+        align-items: center;
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+    &__main{
+        justify-content: space-between;
+        li:last-child{
+            &:hover{
+                background: transparent;
+            }
+        }
+    }
+    li{
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        transition: 0.2s all linear;
+        &.active, &:hover{
+            background: $first-color;
+            a{
+                color: $third-color;
+            }
+        }
+        .icon__search{
+            img{ width: 20px; }
+        }
+    }
+    a{
+        color: $second-color;
+    }
+}
